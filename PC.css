@@ -1,0 +1,30 @@
+.main--container {
+    max-width: none;
+    height: 76.7vh;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-cuadrado {
+    width: 30%;
+    height: 52vh;
+    order: 1;
+    padding-top: 7rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px #000000;
+}
+.triángulo {
+    width: 30%;
+    order: 2;
+    height: 52vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px #000000;
+}  
+.circulo {
+    width: 30%;
+    order: 3;
+    padding-top: 7rem;
+    height: 52vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px #000000;
+}

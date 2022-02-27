@@ -1,0 +1,20 @@
+.main--container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.container-cuadrado {
+    width: 50%;
+    max-width: 600px;
+    order: 1;
+    height: 31vh;
+}
+.triángulo {
+    max-width: 600px;
+    order: 3;
+    height: 50vh;
+}
+.circulo {
+    max-width: 600px;
+    width: 50%;
+    order: 2;
+}
