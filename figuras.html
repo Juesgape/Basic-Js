@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="(min-width: 597px)">
+    <link rel="stylesheet" href="./PC.css" media="(min-width: 1000px)">
+    <script src="./figuras.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Hecho por <a href="https://github.com/Juesgape">Juesgape</a>🕷</p>
+    </header>
+        <main>
+            <section class="main--container">
+                <div class="container-cuadrado">
+                    <img src="./Images/Cuadrado.png" alt="Imagen de un cuadrado">
+                    <h2>Cuadrado</h2>
+                <form>
+                    <p>¿Cuánto mide el lado de tu cuadrado?</p>
+                    <input id="inputCuadrado" type="number"/>
+                </form>
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+                </div>
+    
+                <div class="triángulo">
+                    <img src="./Images/Triángulo.png" alt="Imagen de un cuadrado">
+                    <h2>Triángulo</h2>
+                    <p>Escribe todas las medidas de tu triángulo</p> 
+                    <form>              
+                    <label class="triángulo-label" for="inputTrianguloLado1">Lado 1</label>
+                    <input class="triángulo-input1" id="inputTrianguloLado1" type="number">
+
+                    <label class="triángulo-label" for="inputTrianguloLado2">Lado 2</label>
+                    <input class="triángulo-input2" id="inputTrianguloLado2" type="number">
+
+                    <label class="triángulo-label" for="inputTrianguloBase">Base</label>
+                    <input class="triángulo-input3" id="inputTrianguloBase" type="number">
+
+                    <label class="triángulo-label" for="inputTrianguloAltura">Altura</label>
+                    <input class="triángulo-input4" id="inputTrianguloAltura" type="number">      
+                    </form>
+                        <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
+                        <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>  
+                </div>
+
+                <div class="circulo">
+                    <img src="./Images/Círculojpg.png" alt="Imagen de un cuadrado">
+                    <h2>Círculo</h2>
+                    <form>
+                    <p>Escribe el radio de tu círculo</p>
+                    <input id="inputRadioCirculo" type="number">
+                    </form>
+                    <button type="button" onclick="calcularPerimetroCirculo()">Calcular perímetro</button>
+                    <button type="button" onclick="calcularAreaCirculo()">Calcular área</button>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Este es mi footer, no sé qué poner alv</h2>
+    </footer>
+</body>
+</html>
