@@ -22,47 +22,58 @@
                     <h2>Cuadrado</h2>
                 <form>
                     <p>¿Cuánto mide el lado de tu cuadrado?</p>
-                    <input id="inputCuadrado" type="number"/>
+                    <input id="inputCuadrado" type="number" placeholder="Lado del cuadrado">
                 </form>
                     <button type="button" onclick="calcularPerimetroCuadrado()">Calcular perímetro</button>
                     <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
                 </div>
     
                 <div class="triángulo">
-                    <img src="./Images/Triángulo.png" alt="Imagen de un cuadrado">
+                    <img src="./Images/Triángulo.png" alt="Imagen de un triángulo">
                     <h2>Triángulo</h2>
                     <p>Escribe todas las medidas de tu triángulo</p> 
                     <form>              
-                    <label class="triángulo-label" for="inputTrianguloLado1">Lado 1</label>
-                    <input class="triángulo-input1" id="inputTrianguloLado1" type="number">
+                    <input id="inputTrianguloLado1" type="number" placeholder="Lado 1">
 
-                    <label class="triángulo-label" for="inputTrianguloLado2">Lado 2</label>
-                    <input class="triángulo-input2" id="inputTrianguloLado2" type="number">
+                    <input id="inputTrianguloLado2" type="number" placeholder="Lado 2">
 
-                    <label class="triángulo-label" for="inputTrianguloBase">Base</label>
-                    <input class="triángulo-input3" id="inputTrianguloBase" type="number">
+                    <input id="inputTrianguloBase" type="number" placeholder="Base">
 
-                    <label class="triángulo-label" for="inputTrianguloAltura">Altura</label>
-                    <input class="triángulo-input4" id="inputTrianguloAltura" type="number">      
+                    <input id="inputTrianguloAltura" type="number" placeholder="Altura">      
                     </form>
                         <button type="button" onclick="calcularPerimetroTriangulo()">Calcular perímetro</button>
                         <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>  
                 </div>
 
                 <div class="circulo">
-                    <img src="./Images/Círculojpg.png" alt="Imagen de un cuadrado">
+                    <img src="./Images/Círculojpg.png" alt="Imagen de un círculo">
                     <h2>Círculo</h2>
                     <form>
                     <p>Escribe el radio de tu círculo</p>
-                    <input id="inputRadioCirculo" type="number">
+                    <input id="inputRadioCirculo" type="number" placeholder="Radio del círculo">
                     </form>
                     <button type="button" onclick="calcularPerimetroCirculo()">Calcular perímetro</button>
                     <button type="button" onclick="calcularAreaCirculo()">Calcular área</button>
                 </div>
+
+                <div class="triángulo-isósceles">
+                    <img src="./Images/triángulo-isóceles.png" alt="Imagen de un triángulo isóceles">
+                    <h2>Triángulo isósceles</h2>
+                    <p>Escribe las medidas de tu triángulo isósceles</p> 
+                    <form>              
+                    <input id="inputIsósceles1" type="number" placeholder="Lado 1">
+
+                    <input id="inputIsósceles2" type="number" placeholder="Lado 2">
+
+                    <input id="inputIsóscelesBase" type="number" placeholder="Base">
+    
+                    </form>
+                        <button type="button" onclick="calcularAlturaTriangulo()">Calcular altura</button>  
+                </div>
         </section>
     </main>
     <footer>
-        <h2>Este es mi footer, no sé qué poner alv</h2>
+        <h2>Hecho con cariño</h2>
     </footer>
 </body>
 </html>

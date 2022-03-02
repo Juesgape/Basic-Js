@@ -2,6 +2,7 @@
     --container1: #a1c3ec;
     --container2: #94bbe9;
     --container3: #86b6f1;
+    --container4: #74abf0;
 }
 * {
     box-sizing: border-box;
@@ -54,7 +55,7 @@ header p {
     justify-content: center;
 }
 .container-cuadrado img {
-    width: 4rem;
+    width: 5.5em;
     align-self: center;
 }
 .triángulo {
@@ -70,11 +71,11 @@ header p {
     display: flex;
     justify-content: center;
 }
-.triángulo label {
-    display: block;
-}
 .triángulo img {
-    width: 5rem; 
+    width: 10rem; 
+}
+.triángulo input {
+    display: block;
 }
 .circulo {
     width: 100%;
@@ -92,6 +93,26 @@ header p {
 .circulo img {
     width: 4rem;
 }
+.triángulo-isósceles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--container4);
+    line-height: 2rem;
+}
+.triángulo-isósceles p {
+    display: flex;
+    justify-content: center;
+}
+.triángulo-isósceles img {
+    width: 7rem;
+    height: 6.5rem; 
+}
+.triángulo-isósceles input {
+    display: block;
+}
 button {
     width: 12rem;
 }
@@ -103,8 +124,8 @@ button:hover, button:active {
 input {
     text-align: center;
 }
-label {
-    text-align: left;
+form {
+    padding-bottom: 0.8rem;
 }
 footer {
     min-width: 320px;

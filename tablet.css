@@ -1,4 +1,5 @@
 .main--container {
+    height: 79vh;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -6,15 +7,20 @@
     width: 50%;
     max-width: 600px;
     order: 1;
-    height: 31vh;
+    min-height: 31vh;
 }
 .triángulo {
-    max-width: 600px;
+    width: 50%;
     order: 3;
-    height: 50vh;
+    height: auto;
 }
 .circulo {
     max-width: 600px;
     width: 50%;
     order: 2;
+}
+.triángulo-isósceles {
+    width: 50%;
+    order: 4;
+    height: auto;
 }

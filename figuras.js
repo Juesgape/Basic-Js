@@ -35,6 +35,9 @@ console.log("La altura del triángulo es de " + alturaTriangulo + "cm")
 */
 console.group("Triángulos");
 
+//const raizCuadrada = Math.sqrt(Number);
+//console.log("La raíz cuadrada de " + Number + "es " + raizCuadrada);
+
 function perimetroTriangulo(lado1, lado2, base) {
     return lado1 + lado2 + base; 
 }
@@ -136,3 +139,16 @@ function calcularAreaCirculo() {
     const area = areaCirculo(value);
     alert("El área del círculo es de " + area + "cm^2")
 }
+
+function calcularAlturaTrianguloIsosceles(lado1, lado2, base) {
+    if (lado1 == lado2 && lado1 != base) {
+        console.log('Es un triángulo isósceles');
+        const cateto = (base / 2) ** 2;
+        const hipotenusa = (lado1) ** 2;
+        const altura = Math.sqrt((hipotenusa) - (cateto));
+        alert("La altura del tríangulo es " + altura);
+    } else {
+        alert("No es un triángulo isósceles");
+    }
+}
+
